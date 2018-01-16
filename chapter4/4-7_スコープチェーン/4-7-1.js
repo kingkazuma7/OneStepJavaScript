@@ -7,8 +7,8 @@
   
 ===== */
 
-var x = 'Global';
-var y = 'Global';
+var x = 'Globalx';
+var y = 'Globaly';
 function outerFunc() {
   var x = 'Local Outer';
   function innerFunc() {
