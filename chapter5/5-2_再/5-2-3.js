@@ -1,0 +1,15 @@
+// リテラル表記
+var Phone = function(name,model,color) {
+  this.name = name;
+  this.model = model;
+  this.color = color;
+};
+
+Phone.prototype = {
+  getName : function() {return this.name},
+  getModel : function() {return this.model},
+  getColor : function() {return this.color}
+}
+
+var featurePhone = new Phone('feature phone', 'X-X', 'black');
+var smartPhone = new Phone('smartphone', 'XX-XX', 'red');
